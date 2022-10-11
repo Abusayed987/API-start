@@ -27,3 +27,7 @@ const shop1 = {
     isOpen: true,
     isNew : false
 }
+const shopStringify2 = JSON.stringify(shop1);
+console.log(shopStringify2) ;
+const shopParse2 = JSON.parse(shopStringify2)
+console.log(shopParse2);
